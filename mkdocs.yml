@@ -1,0 +1,20 @@
+site_name: Documentación MkDocs
+site_url: https://golic98.github.io/documentacion-mkdocs/
+
+theme:
+  name: material
+  language: es
+  features:
+    - content.tabs.link
+
+nav:
+  - Inicio: index.md
+  - Acerca de: about.md
+  - Guía: guide.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
